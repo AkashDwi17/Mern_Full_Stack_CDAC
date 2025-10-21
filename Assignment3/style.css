@@ -1,0 +1,22 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.card {
+  border-radius: 15px;
+}
+
+#starRating i {
+  font-size: 1.5rem;
+  cursor: pointer;
+  margin-right: 5px;
+  transition: transform 0.2s;
+}
+
+#starRating i:hover {
+  transform: scale(1.2);
+}
+
+textarea {
+  resize: none;
+}

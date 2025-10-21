@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Akash Dwivedi | Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <!-- Header & Navigation -->
+    <header>
+      <h1>My Portfolio</h1>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="section about">
+      <h2>About Me</h2>
+      <div class="about-content">
+        <img
+          src="assets/Akash_Photo.jpeg"
+          alt="Profile photo of Akash Dwivedi"
+          class="profile-img"
+        />
+        <p>
+          Hi, I'm <strong>Akash Dwivedi</strong> — a passionate web developer
+          skilled in <b>HTML, CSS, JavaScript, and React</b>. I recently
+          completed my <b>B.Tech in Electronics & Communication</b> from
+          <b>Government Engineering College, Rewa (M.P.)</b>. I enjoy building
+          responsive and dynamic web applications.
+        </p>
+      </div>
+
+      <!-- Bonus: YouTube Embed -->
+      <iframe
+        width="400"
+        height="225"
+        src="https://www.youtube.com/embed/tgbNymZ7vqY"
+        title="YouTube video"
+        frameborder="0"
+        allowfullscreen
+      ></iframe>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section education">
+      <h2>Education</h2>
+      <table>
+        <tr>
+          <th>Degree</th>
+          <th>Institution</th>
+          <th>Year</th>
+          <th>Grade</th>
+        </tr>
+        <tr>
+          <td>10<sup>th</sup></td>
+          <td>Gayatri Vidya Mandir H.S. School, Rewa (M.P.)</td>
+          <td>2019</td>
+          <td>89.8%</td>
+        </tr>
+        <tr>
+          <td>12<sup>th</sup></td>
+          <td>Gayatri Vidya Mandir H.S. School, Rewa (M.P.)</td>
+          <td>2021</td>
+          <td>87%</td>
+        </tr>
+        <tr>
+          <td>B.Tech (ECE)</td>
+          <td>Government Engineering College, Rewa (M.P.)</td>
+          <td>2025</td>
+          <td>71%</td>
+        </tr>
+      </table>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section projects">
+      <h2>Projects</h2>
+
+      <article class="project">
+        <h3>Authentication System</h3>
+        <p>
+          A complete MERN-based user authentication system with OTP
+          verification, password reset, and secure token-based login.
+        </p>
+        <a
+          href="https://github.com/AkashDwi17"
+          target="_blank"
+          class="project-link"
+          ><i class="fa-brands fa-github"></i> View on GitHub</a
+        >
+      </article>
+
+      <article class="project">
+        <h3>Library Management System</h3>
+        <p>
+          Full-stack system for managing book borrow/return features using React
+          and Redux Toolkit (Admin & User roles).
+        </p>
+        <a
+          href="https://github.com/AkashDwi17"
+          target="_blank"
+          class="project-link"
+          ><i class="fa-brands fa-github"></i> View on GitHub</a
+        >
+      </article>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact">
+      <h2>Contact Me</h2>
+      <form action="#" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <p>© 2025 Akash Dwivedi. All rights reserved.</p>
+    </footer>
+  </body>
+</html>

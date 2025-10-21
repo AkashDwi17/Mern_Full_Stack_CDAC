@@ -1,0 +1,55 @@
+body {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  min-height: 100vh;
+  background-color: #f0f4f8;
+  margin: 0;
+  gap: 30px; /* Adds space between cards */
+  padding: 20px;
+}
+
+/* Card container styling */
+.card {
+  width: 300px;
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  overflow: hidden; /* Ensures the image respects the border radius */
+  transition: all 0.3s ease-in-out;
+}
+
+/* Card hover effect */
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+}
+
+/* Image styling */
+.card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover; /* Prevents the image from stretching */
+  display: block;
+}
+
+/* Description area styling */
+.desc {
+  padding: 20px;
+}
+
+/* Text styling */
+.desc h2 {
+  margin: 0 0 10px 0;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.desc p {
+  margin: 0;
+  font-size: 1rem;
+  color: #666;
+  line-height: 1.5;
+}
