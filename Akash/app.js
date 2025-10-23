@@ -1,18 +1,36 @@
 // Arrays
 
+// slice
+let colors = ['red', 'yellow', 'blue', 'orange', 'green', 'voilate'];
+// colors = colors.slice(2);
+// colors = colors.slice(2,5);
+console.log (colors);
+
+
+colors = colors.slice(-5);
+console.log (colors);
+
+// concatination
+let primary = ["red", "yellow", "blue"];
+let secondary = ["orange", "green", "voilate"];
+
+let main = primary.concat(secondary);
+console.log(main);
+
+console.log (main.reverse());
+
 let students = ["aman", "shradha", "rajat"];
-console.log (students);
+console.log(students);
 
 let reversed = students.toReversed();
-console.log (reversed);
+console.log(reversed);
 
 // join
-let ans = students.join (" % ");
-console.log (ans);
+let ans = students.join(" % ");
+console.log(ans);
 
-
-let marks = [99,98,"ak",3.14];
-console.log (marks);
+let marks = [99, 98, "ak", 3.14];
+console.log(marks);
 
 // Arrays
 
@@ -38,24 +56,29 @@ console.log(fruits);
 
 let car = ["audi", "bmw", "maruti", "xuv"];
 
-console.log (car);
+console.log(car);
 
 // shift  unshift push pop
 
 // let newCar = car.push ("farari");
 // console.log (newCar);
- 
+
 // Note: push("farari") adds "farari" to the end of car.
 // But push() returns the new length of the array — not the updated arra
 
-car.push ("farari");
-console.log (car);
+car.push("farari");
+console.log(car);
 
 car.pop();
-console.log (car);
+console.log(car);
 
-car.unshift ("lamborgini");
-console.log (car);
+car.unshift("lamborgini");
+console.log(car);
 
-car.shift ();
-console.log (car);
+car.shift();
+console.log(car);
+
+
+
+
+
