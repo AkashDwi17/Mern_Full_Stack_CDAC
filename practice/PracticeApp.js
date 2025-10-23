@@ -11,8 +11,8 @@ console.log("Sum is " + a + b);
 // they are used to add embeded expression in a string
 
 console.log(`Your pay ${a + b} rupees`);
- firstName = "Akash";
- lastName = "Dwivedi";
+firstName = "Akash";
+lastName = "Dwivedi";
 
 console.log(`Your Full Name is ${firstName + lastName}`);
 
@@ -41,10 +41,6 @@ if (firstName == "Shradha") {
   console.log(`Welcome ${firstName}`);
 }
 
-
-
-
-
 let color = prompt("Enter the Signal Color(red green yellow)");
 
 if (color == "red") {
@@ -57,11 +53,15 @@ if (color == "red") {
   console.log("Enter correct signal");
 }
 
-let day = 1;
+// let day = 1;
+day = 1;
 switch (day) {
-    case 1: (console.log ("Monday")); break;
-    case 2: (console.log ("Tuesday")); break;
-    
+  case 1:
+    console.log("Monday");
+    break;
+  case 2:
+    console.log("Tuesday");
+    break;
 }
 
 let day = Number(prompt("Enter week number"));
@@ -76,7 +76,6 @@ switch (day) {
     console.log("Wednesday");
     break;
 }
-
 
 let firstName = prompt("Enter Your First Name");
 let lastName = prompt("Enter Your Last Name");

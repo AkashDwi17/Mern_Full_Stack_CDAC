@@ -1,5 +1,23 @@
 // Arrays
 
+// slice
+let colors = ["red", "yellow", "blue", "orange", "green", "voilate"];
+// colors = colors.slice(2);
+// colors = colors.slice(2,5);
+console.log(colors);
+
+colors = colors.slice(-5);
+console.log(colors);
+
+// concatination
+let primary = ["red", "yellow", "blue"];
+let secondary = ["orange", "green", "voilate"];
+
+let main = primary.concat(secondary);
+console.log(main);
+
+console.log(main.reverse());
+
 let students = ["aman", "shradha", "rajat"];
 console.log(students);
 
